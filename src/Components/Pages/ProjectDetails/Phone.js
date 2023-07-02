@@ -1,0 +1,65 @@
+import React from 'react';
+import Slider from '../Slider/Slider';
+
+const data={
+    img1:'https://i.ibb.co/kmTRZfm/phone-resale.png',
+    img2:'https://i.ibb.co/Vmwjjcd/pr4.png',
+    img3:'https://i.ibb.co/ky45v1s/pr2.png',
+    img4:'https://i.ibb.co/m9msg3z/pr3.png'
+}
+const Phone = () => {
+    return (
+        <div
+      className="lg:px-14 px-4"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
+      <h2
+        className="lg:text-4xl text-3xl
+         text-white font-bold my-14 "
+      >
+        Phone Reseller
+      </h2>
+
+      <div className=" flex lg:flex-row flex-col gap-4 my-5 items-center ">
+        <div className=" lg:w-1/2">
+          <Slider data={data} />
+        </div>
+        <div className='px-5'>
+          <h2
+            className="lg:text-3xl text-3xl
+         text-white font-bold my-14 "
+          >
+           Phone Reseller of My Personal Project
+          </h2>
+       <p className="lg:text-xl">It is an e-commerce site. Here any seller can sell his used old phone if he wants. And he can advertise his 
+phone. A user can purchase the phone of his choice. <br /> A full-stack website where you have the Admin, Buyer, Seller dashboard. <br />To place buy and sell with email login.
+ </p>
+       <p className="lg:text-xl mt-4">Technology:  React JS, Tailwind CSS, daisyUI, Firebase, Mongo DB, Express JS, Node JS.</p>
+        </div>
+      </div>
+      <div className="my-5">
+        <a target="_blank" href='https://phone-reseller-1a73e.web.app/'>
+          <button className=" btn btn-outline bgColor px-8  rounded-full text-xl mr-3 mb-4 ">
+            preview
+          </button>
+        </a>
+        <a target="_blank" href='https://github.com/sifat-ur-rahman/phone_reseller-client_side'>
+          <button className=" btn btn-outline bgColor px-8  rounded-full text-xl mr-3 mb-4 ">
+            client side code
+          </button>
+        </a>
+        
+          <a target="_blank" href='https://github.com/sifat-ur-rahman/phone_reseller-server_side'>
+            <button className=" btn btn-outline bgColor px-8  rounded-full text-xl mr-3 mb-4 ">
+              sever side code
+            </button>
+          </a>
+       
+      </div>
+    </div>
+    );
+};
+
+export default Phone;

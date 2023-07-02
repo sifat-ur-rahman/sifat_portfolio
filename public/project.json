@@ -1,0 +1,41 @@
+[
+    {
+        "id":"1",
+        "title":"master builder",
+        "technology":"react js , node js, mongodb, express js tailwind css firebase ",
+         "liveSide": "https://master-builder-assignment.web.app/",
+         "clientSide" :"https://github.com/FFrajibraj779/master-builder-cline-as11",
+         "serverSide" : "https://github.com/FFrajibraj779/master-builder-server",
+        "desc":"On this site, people add any construction service and also buy any service People can log in or sign up with firebase.Developing project plans. Monitoring construction progress Making plans using detailed drawings.Researching and providing estimates for projects.  P eparing and implementing project plans.Cleaning and preparing construction sites.",
+        "Img":"https://i.ibb.co/QmW79ts/master-builder.png",
+        "img1":"https://i.ibb.co/6R0MMNS/mdetails.png",
+        "img2":"https://i.ibb.co/ftzW4tw/mreview.png",
+        "img3":"https://i.ibb.co/LQrb0TL/MSERVICE.png"
+    },
+    {
+        "id":"2",
+        "title":"learning programming",
+        "technology":"react js , node js, mongodb, express js tailwind css firebase ",
+         "liveSide":"https://assignment10-c02d5.web.app/",
+         "clientSide":"https://github.com/FFrajibraj779/learning-programming",
+         "serverSide":"https://github.com/FFrajibraj779/learning-programming-server",
+        "desc":"learning programming is a also full stack project .in this project , i use react js, node js , Express js best quality learning easy to learn programming language complete roadmap to full stack developer unlimited support with 24/hr prepared to job interview",
+        "Img":"https://i.ibb.co/Q9dBn0B/learning-programming.png",
+        "img1":"https://i.ibb.co/RY16RjJ/lcourse.png",
+        "img2":"https://i.ibb.co/RpQkKSv/ldetails.png"
+        
+    },
+    {
+        "id":"3",
+        "title":" programming context",
+        "technology":"react js , tailwind css  ",
+        "liveSide":"https://charming-salamander-0ceee5.netlify.app/",
+        "clientSide":"https://github.com/FFrajibraj779/programming-context-as9",
+        "desc":"Simple quiz-related website If users click the right answer shows a popup correct answer or show the wrong answer Users also see the correct answer click on the icon",
+        "Img":"https://i.ibb.co/42zKjNh/programming-context.png",
+        "img1":"https://i.ibb.co/4K5VjH0/pstatic.png",
+        "img2":"https://i.ibb.co/jbRmymm/pquize.png"
+    
+         
+    }
+]

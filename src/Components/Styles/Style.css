@@ -1,0 +1,37 @@
+.bgColor{
+    background: linear-gradient( to right, #070723, #2B094D, #070723);
+    color: rgb(255, 252, 252);
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+ 
+  .text img{
+ 
+ 
+ /* animation: rotateText 10s ease-in  infinite; */
+  }
+
+  @keyframes rotateText {
+    
+    0%{
+      transform: rotate(180deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+  }
