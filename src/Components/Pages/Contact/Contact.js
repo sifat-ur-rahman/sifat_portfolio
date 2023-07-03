@@ -51,28 +51,32 @@ const Contact = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex flex-col justify-center items-center mx-auto py-3 gap-5 border  lg:w-1/2"
+        className="flex flex-col justify-center items-center mx-auto py-3 gap-5 border rounded-xl "
       >
+        <div className="grid lg:grid-cols-2 mt-4 self-center">
+        <div className="px-8 justify-self-start">
         <input
           name="user_email"
           type="email"
           placeholder="your Email"
           required
-          className="input input-bordered w-full max-w-xs text-black"
+          className="input input-bordered w-full my-4  text-black"
         />
-        <input
+         <input
           name="user_name"
           type="text"
           placeholder=" your Name"
           required
-          className="input input-bordered w-full max-w-xs text-black"
+          className="input input-bordered w-full text-black"
         />
+        </div>
         <textarea
           name="message"
           required
-          className="textarea textarea-bordered w-80 text-black"
+          className="textarea px-4 my-4 lg:my-0 textarea-bordered w-full text-black text-lg "
           placeholder="Message"
         ></textarea>
+        </div>
         <button
           type="submit"
           value="Send"
