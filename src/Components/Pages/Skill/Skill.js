@@ -110,9 +110,9 @@ const Skill = () => {
      
    {
     image.map((char, i)=>
-    <div className="hover:bg-purple-800 rounded-xl hover:text-black grid justify-center justify-items-center items-center content-between">
-    <img src={char.img} alt="" className='w-24'/>
-    <p className="text-center font-bold text-xl">{char.name}</p>
+    <div className="hover:bg-purple-900 rounded-xl hover:text-[#CCD6F6] grid justify-center py-2 px-2 justify-items-center items-center content-between">
+    <img src={char.img} alt="" className='w-24 self-end'/>
+    <p className="text-center hover:font-extrabold font-bold text-xl">{char.name}</p>
     </div>
     
 
