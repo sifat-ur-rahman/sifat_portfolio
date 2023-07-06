@@ -40,14 +40,14 @@ const AboutMe = () => {
             <h1 className="text-2xl font-bold text-[#]">MERN Stack Developer </h1>
             <p className="py-6 text-xl whitespace-normal ">
                I'm Md Sifat Ur Rahman. MERN Stack Developer from Bangladesh.
-              currently, I had completed mern stack web development course from
-              programming hero . i am gain a lot of knowledge about html , css ,
-              javascript , react js, node js . now i am ready for working with
-              others . i have completed some project with react js. I`m a fast
-              learner and Can Quickly integrate into the team so I can provide
-              value to the company and the customers. if you interested for my
-              work and services. please contact me
-              <br /> thanks for visiting my profile
+              Currently, I had completed MERN stack web development course from
+              Programming Hero . I am gain a lot of knowledge about Html , Css ,
+              Javascript , React JS, Node Js, Express JS, Mongo DB . Now I am ready for working with
+              others . I have completed some project with react js. I`m a fast
+              learner and can Quickly integrate into the team so I can provide
+              value to the company and the customers. If you interested for my
+              work and services. Please contact me
+               thanks for visiting my profile
             </p>
             <a href="#contact">
             <button className=" btn btn-outline bgColor rounded-full px-8 text-xl ">Contact Me</button></a>

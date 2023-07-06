@@ -21,8 +21,8 @@ const Freemium = () => {
         Freemium Articles
       </h2>
 
-      <div className=" flex lg:flex-row flex-col gap-4 my-5 items-center ">
-        <div className=" lg:w-1/2">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 my-5 items-center ">
+        <div className=" ">
           <Slider data={data} />
         </div>
         <div className='px-5'>
@@ -30,12 +30,12 @@ const Freemium = () => {
             className="lg:text-3xl text-3xl
          text-white font-bold my-14 "
           >
-            Freemium Articles of My Team Project
+            Freemium Articles of My <span className='text-[#818AA9]'> Team Project </span>
           </h2>
        <p className="lg:text-xl">It is an article publishing site. It contains articles of various categories. There are more such articles 
 especially for programmers to get help. If there is no help for any issue they can take solution from Open 
 API. I worked as a full-stack developer on this project.</p>
-       <p className="lg:text-xl mt-4">Technology: React JS, Tailwind CSS, daisyUI, Redux, Mongo DB, Node JS, Express JS.</p>
+       <p className="lg:text-xl mt-4"> <span className='text-[#818AA9] font-bold'>Technology:</span> React JS, Tailwind CSS, daisyUI, Redux, Mongo DB, Node JS, Express JS.</p>
         </div>
       </div>
       <div className="my-5">

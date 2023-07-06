@@ -1,12 +1,10 @@
 import { useLoaderData } from "react-router-dom";
-import DetailsPage from "./DetailsPage";
-import { Routes, Route, useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+
 import Slider from "../Slider/Slider";
 
 const ProjectDetails = () => {
   const data = useLoaderData();
-  console.log(data);
+  
   const { title, liveSide, clientSide, serverSide, desc, technoloy } = data;
 
   return (

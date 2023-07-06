@@ -22,8 +22,8 @@ const Phone = () => {
         Phone Reseller
       </h2>
 
-      <div className=" flex lg:flex-row flex-col gap-4 my-5 items-center ">
-        <div className=" lg:w-1/2">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 my-5 items-center ">
+        <div className=" ">
           <Slider data={data} />
         </div>
         <div className='px-5'>
@@ -31,12 +31,12 @@ const Phone = () => {
             className="lg:text-3xl text-3xl
          text-white font-bold my-14 "
           >
-           Phone Reseller of My Personal Project
+           Phone Reseller of My <span className='text-[#818AA9]'> Personal Project </span>
           </h2>
        <p className="lg:text-xl">It is an e-commerce site. Here any seller can sell his used old phone if he wants. And he can advertise his 
 phone. A user can purchase the phone of his choice. <br /> A full-stack website where you have the Admin, Buyer, Seller dashboard. <br />To place buy and sell with email login.
  </p>
-       <p className="lg:text-xl mt-4">Technology:  React JS, Tailwind CSS, daisyUI, Firebase, Mongo DB, Express JS, Node JS.</p>
+       <p className="lg:text-xl mt-4"> <span className='text-[#818AA9] font-bold'>Technology:</span>  React JS, Tailwind CSS, daisyUI, Firebase, Mongo DB, Express JS, Node JS.</p>
         </div>
       </div>
       <div className="my-5">

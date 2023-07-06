@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import toast  from "react-hot-toast";
 const Contact = () => {
   const form = useRef();
-  console.log(form);
+  
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,15 +17,14 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          console.log(result);
+          
           toast.success("Successfully Message Sent", {
             position: "top-center",
           });
           form.current.reset();
         },
         (error) => {
-          console.log(error.text);
+          
           toast.error('Something Is Wrong')
         }
       );

@@ -22,8 +22,8 @@ const Course = () => {
           Crash Course
         </h2>
   
-        <div className=" flex lg:flex-row flex-col gap-4 my-5 items-center ">
-          <div className=" lg:w-1/2">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 my-5 items-center ">
+          <div className=" ">
             <Slider data={data} />
           </div>
           <div className='px-5'>
@@ -31,13 +31,13 @@ const Course = () => {
               className="lg:text-3xl text-3xl
            text-white font-bold my-14 "
             >
-             Crash Course of My Personal Project
+             Crash Course of My <span className='text-[#818AA9]'>x Personal Project </span>
             </h2>
          <p className="lg:text-xl">It is an online education platform. Here students can take courses on different subjects. <br /> 
          This Course site. Here is many Courses.<br />
          Before place Course Details, user have login with a Google account and email.
    </p>
-         <p className="lg:text-xl mt-4">Technology:   React JS, Firebase, React-Bootstrap, Express JS, Node JS.</p>
+         <p className="lg:text-xl mt-4"> <span className='text-[#818AA9] font-bold'>Technology: </span>  React JS, Firebase, React-Bootstrap, Express JS, Node JS.</p>
           </div>
         </div>
         <div className="my-5">
