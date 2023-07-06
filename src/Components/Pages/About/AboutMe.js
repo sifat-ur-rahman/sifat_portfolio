@@ -25,23 +25,23 @@ const AboutMe = () => {
           >
             <img
               src={img}
-              className="max-w-sm rounded-lg "
+              className="lg:max-w-sm rounded-lg "
               alt=""
             />
           </div>
           <div
-            className="mt-4"
+            className="mt-4 mr-2"
             data-aos="fade-right"
 
-            data-aos-offset="500"
-            data-aos-duration="3500"
+            data-aos-offset="400"
+            data-aos-duration="4000"
           >
             <h1 className="text-4xl font-bold text-[#]">Sifat Ur Rahman </h1>
             <h1 className="text-2xl font-bold text-[#]">MERN Stack Developer </h1>
             <p className="py-6 text-xl whitespace-normal ">
                I'm Md Sifat Ur Rahman. MERN Stack Developer from Bangladesh.
               Currently, I had completed MERN stack web development course from
-              Programming Hero . I am gain a lot of knowledge about Html , Css ,
+              Programming Hero . <br /> I am gain a lot of knowledge about Html , Css ,
               Javascript , React JS, Node Js, Express JS, Mongo DB . Now I am ready for working with
               others . I have completed some project with react js. I`m a fast
               learner and can Quickly integrate into the team so I can provide

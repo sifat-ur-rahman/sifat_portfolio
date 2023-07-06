@@ -3,19 +3,21 @@ import logo from "../../../images/R_logo.svg.png";
 import facebook from "../../../images/facebook.png";
 import github from "../../../images/github.png";
 import likedin from "../../../images/linkedin.png";
+import gmail from "../../../images/gmail.png";
+import phone from "../../../images/phone.png";
 
 
 const Foonter = () => {
   return (
     <div>
       <hr />
-      <footer className="footer p-10  text-white">
+      <footer className="footer p-6 lg:grid-cols-3 grid-cols-1 text-white">
         <div >
           <div className="flex items-end cursor-pointer">
           <img src={logo} className="w-16 " alt="logo" />
           <span className="text-2xl text-sky-400 ">ifat</span>
           </div>
-          <p className="text-3xl ">
+          <p className="text-2xl font-semibold ">
             MERN Stack Developer
           </p>
         </div>
@@ -37,7 +39,17 @@ const Foonter = () => {
             >
               <img src={facebook} className="w-8 rounded-lg" alt="logo" />
             </a>
+            
           </div>
+          
+        </div>
+        <div>
+
+        <span className="lg:text-xl font-semibold text-[#CCD6F6] ">CONTACT</span>
+        <p className="flex"> <img src={gmail} alt="gmail" className="w-8 rounded-lg" /> 
+        <span className="ml-3 text-lg">md.sifat.ur.rahman2702@gmail.com</span> </p>
+        <p className="flex"> <img src={phone} alt="gmail" className="w-8 rounded-full bg-indigo-400" />
+         <span className=" ml-3 text-lg font-semibold">+880 174 062 5770</span> </p>
         </div>
       </footer>
     </div>
