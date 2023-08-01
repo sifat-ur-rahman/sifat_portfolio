@@ -4,11 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Toaster } from 'react-hot-toast';
+import { Cursor } from 'custom-pointer-react'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <Toaster/>
+    <Cursor
+  showRing={true}
+  color="#FFFFFF"
+  ringSize={35}
+  cursorSize={14}
+  ringBorder={2}
+/>
   </React.StrictMode>
 );
 
