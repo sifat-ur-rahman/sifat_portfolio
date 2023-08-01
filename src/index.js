@@ -13,8 +13,8 @@ root.render(
     <Cursor
   showRing={true}
   color="#FFFFFF"
-  ringSize={35}
-  cursorSize={14}
+  ringSize={37}
+  cursorSize={17}
   ringBorder={2}
 />
   </React.StrictMode>
