@@ -33,7 +33,7 @@ const Phone = () => {
           >
            Phone Reseller of My <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'> Personal Project </span>
           </h2>
-       <p className="lg:text-xl">It is an e-commerce site. Here any seller can sell his used old phone if he wants. And he can advertise his 
+       <p className="lg:text-xl text-justify">It is an e-commerce site. Here any seller can sell his used old phone if he wants. And he can advertise his 
 phone. A user can purchase the phone of his choice. <br /> A full-stack website where you have the Admin, Buyer, Seller dashboard. <br />To place buy and sell with email login.
  </p>
        <p className="lg:text-xl mt-4"> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 font-bold'>Technology:</span>  React JS, Tailwind CSS, daisyUI, Firebase, Mongo DB, Express JS, Node JS.</p>

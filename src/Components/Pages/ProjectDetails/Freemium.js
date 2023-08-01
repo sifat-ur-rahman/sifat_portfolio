@@ -32,7 +32,7 @@ const Freemium = () => {
           >
             Freemium Articles of My <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'> Team Project </span>
           </h2>
-       <p className="lg:text-xl">It is an article publishing site. It contains articles of various categories. There are more such articles 
+       <p className="lg:text-xl text-justify">It is an article publishing site. It contains articles of various categories. There are more such articles 
 especially for programmers to get help. If there is no help for any issue they can take solution from Open 
 API. I worked as a full-stack developer on this project.</p>
        <p className="lg:text-xl mt-4"> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 font-bold'>Technology:</span> React JS, Tailwind CSS, daisyUI, Redux, Mongo DB, Node JS, Express JS.</p>

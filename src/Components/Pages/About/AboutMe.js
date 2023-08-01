@@ -38,7 +38,7 @@ const AboutMe = () => {
           >
             <h1 className="text-4xl font-bold text-[#]">Sifat Ur Rahman </h1>
             <h1 className="text-2xl font-bold text-[#]">MERN Stack Developer </h1>
-            <p className="py-6 text-xl whitespace-normal ">
+            <p className="py-6 text-xl whitespace-normal text-justify ">
                I'm Md Sifat Ur Rahman. MERN Stack Developer from Bangladesh.
               Currently, I had completed MERN stack web development course from
               Programming Hero . <br /> I am gain a lot of knowledge about Html , Css ,

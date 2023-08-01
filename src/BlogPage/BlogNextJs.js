@@ -32,8 +32,8 @@ const BlogNextJs = () => {
             <p className='text-2xl font-bold mb-2 '>Broader Adoption in E-commerce and Enterprise Applications:</p>
             <p className='text-xl text-justify mb-6'>The performance advantages of Next.js make it an attractive option for e-commerce platforms and enterprise applications. In the future, we can anticipate wider adoption of Next.js in these sectors.</p>
             <p className='text-2xl font-bold mb-2 '>Increased Focus on Serverless Architectures:</p>
-            <p className='text-xl text-justify mb-6'>As serverless architecture gains momentum, Next.js, with its Vercel integration, is well-positioned to lead the way in building serverless applications with ease and efficiency.</p>
-            <p className='text-xl text-justify mb-6'>Next.js is a game-changer in web development. It offers an intuitive and efficient way to build performant and SEO-friendly applications. Next.js has strong community support. It is poised to play a central role in shaping the future of web development. Expect an impressive array of features and improvements. Next.js is a framework worth exploring and incorporating into projects.</p>
+            <p className='text-xl text-justify mb-10'>As serverless architecture gains momentum, Next.js, with its Vercel integration, is well-positioned to lead the way in building serverless applications with ease and efficiency.</p>
+            <p className='text-xl text-justify mb-14'>Next.js is a game-changer in web development. It offers an intuitive and efficient way to build performant and SEO-friendly applications. Next.js has strong community support. It is poised to play a central role in shaping the future of web development. Expect an impressive array of features and improvements. Next.js is a framework worth exploring and incorporating into projects.</p>
         </div>
     );
 };
