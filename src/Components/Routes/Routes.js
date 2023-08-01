@@ -8,6 +8,11 @@ import Home from "../Pages/Home/Home";
 import Freemium from "../Pages/ProjectDetails/Freemium";
 import Phone from "../Pages/ProjectDetails/Phone";
 import Course from "../Pages/ProjectDetails/Course";
+import RemoteJobs from "../../BlogPage/RemoteJobs";
+import BlogNextJs from "../../BlogPage/BlogNextJs";
+// import NextJs from "../../BlogPage/NextJS";
+
+
 
 export const router = createBrowserRouter([
   {
@@ -20,23 +25,31 @@ export const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/Freemium_Articles",
+        path: "/project/Freemium_Articles",
         element: <Freemium />,
         
       },
       {
-        path: "/Phone_Reseller",
+        path: "/project/Phone_Reseller",
         element: <Phone />,
         
       },
       {
-        path: "/Crash_Course",
+        path: "/project/Crash_Course",
         element: <Course />,
         
       },
       {
         path: "/blogs",
         element: <Blogs></Blogs>,
+      },
+      {
+        path: "/blog/remote_jobs",
+        element: <RemoteJobs></RemoteJobs>
+      },
+      {
+        path: "/blog/next_js",
+        element: <BlogNextJs></BlogNextJs>
       },
       {
         path: "*",

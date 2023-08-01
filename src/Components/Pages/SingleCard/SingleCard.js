@@ -13,7 +13,7 @@ const SingleCard = ({singleData}) => {
           <img  src={Img} className='' alt="Shoes" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-2xl">{title} </h2>
+          <h2 className="card-title text-2xl">{title.slice(0, 60)} </h2>
           <p className='text-xl flex justify-around'>{desc.slice(0, 100)}</p>
           <div className="card-actions justify-end">
 

@@ -7,21 +7,21 @@ const projectData = [
     Img:'https://i.ibb.co/4FZzFK2/FreeMium.png',
     desc:'It is an article publishing site. It contains articles of various categories. There are more such articles especially for programmers to get help.',
     title:'Freemium Articles',
-    router:'Freemium_Articles'
+    router:'project/Freemium_Articles'
   },
   {
     _id: '2',
     Img:'https://i.ibb.co/kmTRZfm/phone-resale.png',
     desc:'It is an e-commerce site. Here any seller can sell his used old phone if he wants. And he can advertise his phone.',
     title:'Phone Reseller',
-    router:'Phone_Reseller'
+    router:'project/Phone_Reseller'
   },
   {
     _id: '3',
     Img:'https://i.ibb.co/F3BDRcq/crash-courses.png',
     desc:'It is an online education platform. Here students can take courses on different subjects.',
     title:'Crash Course',
-    router:'Crash_Course'
+    router:'project/Crash_Course'
   },
 ]
 
