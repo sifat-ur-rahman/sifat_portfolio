@@ -93,7 +93,7 @@ const Skill = () => {
     <div>
        <h2
         className="lg:text-5xl text-3xl
-        uppercase text-[#818AA9] font-bold text-center my-10 "
+        uppercase bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 font-bold text-center my-10 "
       >
         SKILL
         <hr className="w-2/12 mx-auto mb-4" />
@@ -105,8 +105,8 @@ const Skill = () => {
    
       </div>
 
-      <Marquee>
-      <div className="text flex gap-5 ">
+      <Marquee gradient={false}>
+      <div  className="text flex gap-5 ">
      
    {
     image.map((char, i)=>

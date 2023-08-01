@@ -35,7 +35,7 @@ const Projects = () => {
       <div>
         <h2
           className="lg:text-5xl text-3xl
-        uppercase text-[#818AA9] font-bold text-center my-14 "
+        uppercase bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 font-bold text-center my-14 "
         >
           Projects
           <hr className="w-3/12  mx-auto mb-4" />

@@ -14,7 +14,7 @@ const SingleCard = ({singleData}) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title text-2xl">{title} </h2>
-          <p className='text-xl'>{desc.slice(0, 100)}</p>
+          <p className='text-xl flex justify-around'>{desc.slice(0, 100)}</p>
           <div className="card-actions justify-end">
 
             <Link to={`/${router}`}>

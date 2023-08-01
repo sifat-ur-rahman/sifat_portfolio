@@ -61,12 +61,12 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 border rounded-box w-52"
+              className="menu bgColor menu-compact dropdown-content mt-3 p-2 border rounded-box w-52"
             >
          {menuItems}
             </ul>
           </div>
-        <ul className="hidden lg:block">
+        <ul className="hidden  lg:block">
         { menuItems}
         </ul>
         </div>

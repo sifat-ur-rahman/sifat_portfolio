@@ -41,7 +41,7 @@ const Contact = () => {
     >
       <h2
         className="lg:text-5xl text-3xl
-        uppercase text-[#818AA9] font-bold text-center my-14 "
+        uppercase bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-700 font-bold text-center my-14 "
       >
         Contact
         <hr className="w-3/12  mx-auto mb-4" />
@@ -57,22 +57,22 @@ const Contact = () => {
         <input
           name="user_email"
           type="email"
-          placeholder="your Email"
+          placeholder="Your Email"
           required
-          className="input input-bordered w-full my-4  text-black"
+          className="input input-bordered border-white w-full my-4 bgColor "
         />
          <input
           name="user_name"
           type="text"
-          placeholder=" your Name"
+          placeholder=" Your Name"
           required
-          className="input input-bordered w-full text-black"
+          className="input bgColor border-white input-bordered w-full "
         />
         </div>
         <textarea
           name="message"
           required
-          className="textarea px-4 my-4 lg:my-0 textarea-bordered w-full text-black text-lg "
+          className="textarea lg:mx-0 mx-8 px-4 my-4 lg:my-0 textarea-bordered bgColor font-bold border-white   text-lg "
           placeholder="Message"
         ></textarea>
         </div>

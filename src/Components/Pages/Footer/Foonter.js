@@ -17,12 +17,12 @@ const Foonter = () => {
           <img src={logo} className="w-16 " alt="logo" />
           <span className="text-2xl text-sky-400 ">ifat</span>
           </div>
-          <p className="text-2xl font-semibold ">
+          <p className="text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600">
             MERN Stack Developer
           </p>
         </div>
         <div>
-          <span className="lg:text-xl font-semibold text-[#CCD6F6] ">Social</span>
+          <span className="lg:text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a 
               target="_blank"
@@ -45,7 +45,7 @@ const Foonter = () => {
         </div>
         <div>
 
-        <span className="lg:text-xl font-semibold text-[#CCD6F6] ">CONTACT</span>
+        <span className="lg:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">CONTACT</span>
         <p className="flex"> <img src={gmail} alt="gmail" className="w-8 rounded-lg" /> 
         <span className="ml-3 text-lg">md.sifat.ur.rahman2702@gmail.com</span> </p>
         <p className="flex"> <img src={phone} alt="gmail" className="w-8 rounded-full bg-indigo-400" />

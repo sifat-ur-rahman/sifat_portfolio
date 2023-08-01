@@ -31,13 +31,13 @@ const Course = () => {
               className="lg:text-3xl text-3xl
            text-white font-bold my-14 "
             >
-             Crash Course of My <span className='text-[#818AA9]'>x Personal Project </span>
+             Crash Course of My <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>Personal Project </span>
             </h2>
          <p className="lg:text-xl">It is an online education platform. Here students can take courses on different subjects. <br /> 
          This Course site. Here is many Courses.<br />
          Before place Course Details, user have login with a Google account and email.
    </p>
-         <p className="lg:text-xl mt-4"> <span className='text-[#818AA9] font-bold'>Technology: </span>  React JS, Firebase, React-Bootstrap, Express JS, Node JS.</p>
+         <p className="lg:text-xl mt-4"> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 font-bold'>Technology: </span>  React JS, Firebase, React-Bootstrap, Express JS, Node JS.</p>
           </div>
         </div>
         <div className="my-5">
