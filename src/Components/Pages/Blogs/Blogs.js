@@ -48,7 +48,7 @@ const blogData = [
   ]
 const Blogs = () => {
     return (
-      <div className="grid lg:grid-cols-3 my-10 mx-9 gap-4"
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 my-10 mx-9 gap-4"
       data-aos-duration="3000"
      data-aos="flip-right">
        {

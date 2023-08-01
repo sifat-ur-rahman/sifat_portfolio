@@ -10,6 +10,10 @@ import Phone from "../Pages/ProjectDetails/Phone";
 import Course from "../Pages/ProjectDetails/Course";
 import RemoteJobs from "../../BlogPage/RemoteJobs";
 import BlogNextJs from "../../BlogPage/BlogNextJs";
+import BlogJavaScript from "../../BlogPage/BlogJavaScript";
+import BlogReactJs from "../../BlogPage/BlogReactJs";
+import BlogDOM from "../../BlogPage/BlogDOM";
+import BlogRedux from "../../BlogPage/BlogRedux";
 // import NextJs from "../../BlogPage/NextJS";
 
 
@@ -44,12 +48,28 @@ export const router = createBrowserRouter([
         element: <Blogs></Blogs>,
       },
       {
+        path: "/blog/next_js",
+        element: <BlogNextJs></BlogNextJs>
+      },
+      {
         path: "/blog/remote_jobs",
         element: <RemoteJobs></RemoteJobs>
       },
       {
-        path: "/blog/next_js",
-        element: <BlogNextJs></BlogNextJs>
+        path: "/blog/javaScript",
+        element: <BlogJavaScript></BlogJavaScript>
+      },
+      {
+        path: "/blog/react_js",
+        element: <BlogReactJs></BlogReactJs>
+      },
+      {
+        path: "/blog/Virtual_DOM",
+        element: <BlogDOM />
+      },
+      {
+        path: "/blog/react_redux",
+        element: <BlogRedux />
       },
       {
         path: "*",
