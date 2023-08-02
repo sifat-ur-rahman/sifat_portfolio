@@ -80,7 +80,7 @@ const image = [
     name:'Typescript '
   },
   {
-    id:"12",
+    id:"13",
     img:vercel,
     name:'Vercel '
   },
@@ -110,7 +110,7 @@ const Skill = () => {
      
    {
     image.map((char, i)=>
-    <div className="hover:bg-purple-900 rounded-xl hover:text-[#CCD6F6] grid justify-center py-2 px-2 justify-items-center items-center content-between">
+    <div key={i} className="hover:bg-purple-900 rounded-xl hover:text-[#CCD6F6] grid justify-center py-2 px-2 justify-items-center items-center content-between">
     <img src={char.img} alt="" className='w-24 self-end'/>
     <p className="text-center hover:font-extrabold font-bold text-xl">{char.name}</p>
     </div>

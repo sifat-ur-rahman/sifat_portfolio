@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../Slider/Slider';
+import { Link } from 'react-router-dom';
 
 const data={
     img1:'https://i.ibb.co/kmTRZfm/phone-resale.png',
@@ -58,6 +59,18 @@ phone. A user can purchase the phone of his choice. <br /> A full-stack website 
           </a>
        
       </div>
+      <div className='flex justify-between mb-6'>
+            <Link to={`/project/Freemium_Articles`}>
+            <button  className=" btn btn-outline text-xl px-8 bgColor rounded-full">
+                Previous
+              </button>
+            </Link>
+            <Link to={`/project/Crash_Course`}>
+            <button className=" btn  btn-outline text-xl px-8 bgColor rounded-full">
+                Next
+              </button>
+            </Link>
+            </div>
     </div>
     );
 };

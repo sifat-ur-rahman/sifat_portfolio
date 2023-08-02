@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../Slider/Slider';
+import { Link } from 'react-router-dom';
 const data={
     img1:'https://i.ibb.co/4FZzFK2/FreeMium.png',
     img2:'https://i.ibb.co/x3nPbWD/FM02.png',
@@ -57,6 +58,18 @@ API. I worked as a full-stack developer on this project.</p>
           </a>
        
       </div>
+      <div className='flex justify-between mb-6'>
+            <Link to={`/#projects`}>
+            <button  className=" btn btn-outline text-xl px-8 bgColor rounded-full">
+                Previous
+              </button>
+            </Link>
+            <Link to={`/project/Phone_Reseller`}>
+            <button className=" btn  btn-outline text-xl px-8 bgColor rounded-full">
+                Next
+              </button>
+            </Link>
+            </div>
     </div>
     );
 };

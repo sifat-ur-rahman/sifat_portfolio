@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../Slider/Slider';
+import { Link } from 'react-router-dom';
 
 const data={
     img1:'https://i.ibb.co/F3BDRcq/crash-courses.png',
@@ -59,6 +60,18 @@ const Course = () => {
             </a>
          
         </div>
+        <div className='flex justify-between mb-6'>
+            <Link to={`/project/Phone_Reseller`}>
+            <button  className=" btn btn-outline text-xl px-8 bgColor rounded-full">
+                Previous
+              </button>
+            </Link>
+            <Link to={``}>
+            <button className=" btn  btn-outline text-xl px-8 bgColor rounded-full">
+                Next
+              </button>
+            </Link>
+            </div>
       </div>
     );
 };

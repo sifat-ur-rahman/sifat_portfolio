@@ -9,7 +9,7 @@ const Header = () => {
       <li>
         
         <a
-          href="#projects"
+          href="/#projects"
           className="mr-4 lg:text-xl font-semibold text-[#CCD6F6] hover:text-white"
         >
           Projects

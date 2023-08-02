@@ -11,8 +11,7 @@ const BlogJavaScript = () => {
             <p className='text-xl text-justify mb-3'>👉 JavaScript can also be used on the server side to create web applications and APIs. There are several popular server-side JavaScript frameworks, such as Node.js, that allow developers to create fast and scalable web applications using JavaScript.</p>
             <p className='text-xl text-justify mb-3'>👉 JavaScript can be used to create mobile applications using frameworks like React Native, which allows developers to write code once and deploy it to both iOS and Android devices.</p>
             <p className='text-xl text-justify mb-9'>👉 JavaScript can also be used to create games using frameworks like Phaser or Three.js.</p>
-            <div className='flex justify-center'>
-            <img className=' mb-6' src="https://i.ibb.co/j4M46sP/1683981559184.jpg" alt="" /></div>
+            <div className='flex justify-center'><img className=' mb-6' src="https://i.ibb.co/j4M46sP/1683981559184.jpg" alt="" /></div>
             <p className='text-2xl font-bold text-justify mb-3'>There are several benefits of using JavaScript, which is why it is one of the most popular programming languages today. Here are some of the main benefits:</p>
             
             <p className='text-xl text-justify mb-3'>👉 JavaScript allows developers to create interactive and dynamic web pages, which can improve user engagement and satisfaction. With JavaScript, you can create features like form validation, dropdown menus, and sliders, among others.</p>

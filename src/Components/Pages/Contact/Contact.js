@@ -25,7 +25,7 @@ const Contact = () => {
         },
         (error) => {
           
-          toast.error('Something Is Wrong')
+          toast.error('Something is wrong')
         }
       );
   };
@@ -81,7 +81,7 @@ const Contact = () => {
           value="Send"
           className="bgColor btn btn-outline px-8 text-xl mb-4 rounded-full"
         >
-          Submit
+          Send
         </button>
       </form>
     </div>

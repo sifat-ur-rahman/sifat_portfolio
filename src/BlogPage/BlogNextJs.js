@@ -37,7 +37,7 @@ const BlogNextJs = () => {
             <p className='text-xl text-justify mb-6'>Next.js is a game-changer in web development. It offers an intuitive and efficient way to build performant and SEO-friendly applications. Next.js has strong community support. It is poised to play a central role in shaping the future of web development. Expect an impressive array of features and improvements. Next.js is a framework worth exploring and incorporating into projects.</p>
             <p className='text-end mb-6 text-slate-300 font-bold'>August 1, 2023</p>
             <div className='flex justify-between '>
-            <Link >
+            <Link to={'/blogs'}>
             <button  className=" btn btn-outline text-xl px-8 bgColor rounded-full">
                 Previous
               </button>

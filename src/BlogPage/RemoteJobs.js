@@ -21,7 +21,7 @@ const RemoteJobs = (props) => {
             <p className='text-xl text-justify mb-6'>👉If you only use technology to talk, it can cause problems like not understanding each other or taking too long to reply.</p>
             <p className='text-xl text-justify mb-6'>👉To stay on task and get things done while working from home, it's important to be in control of your schedule and have good self-control.</p>
             <p className='text-xl text-justify mb-6'>👉 Restricted face-to-face gatherings, which might need different approaches to encourage team unity and cooperation.</p>
-            <p className='text-end mb-6 text-slate-300 font-bold'>Jun 20, 2023</p>
+            <p className='text-end mb-6 text-slate-300 font-bold'>June 20, 2023</p>
             <div className='flex justify-between '>
             <Link to={`/blog/next_js`}>
             <button  className=" btn btn-outline text-xl px-8 bgColor rounded-full">
