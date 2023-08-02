@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BlogReactJs = (props) => {
     return (
-        <div className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
             <h2 className='text-5xl font-bold text-center mb-6'><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>React is an open-source JavaScript library for </span> <span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-pink-600'>building user interfaces (UIs) or UI components.</span> </h2>
             <p className='text-xl text-justify mb-6'>React is an open-source JavaScript library for building user interfaces (UIs) or UI components. Developed by Facebook, React was initially released in 2013 and has since become one of the most popular libraries for building modern web applications.</p>
             <p className='text-2xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>The way React JS works</p>

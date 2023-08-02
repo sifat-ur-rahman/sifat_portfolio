@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BlogNextJs = () => {
     return (
-        <div className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
            <h2 className='text-5xl font-bold text-center mb-6'><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>The Future of Next.js: Accelerating Web </span> <span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-pink-600'>Development to New Heights </span> </h2>
            
            <p className='text-xl text-justify mb-6'>In the constantly changing field of web development, it is important to keep up with the latest trends in order to build contemporary, effective, and user-friendly websites and apps. A popular framework called Next.js is gaining a lot of attention and has the potential to shape the future of web development. In this blog post, we'll delve into Next.js and its impressive abilities, while talking about its bright future and the influence it's expected to have on the web development community.</p>

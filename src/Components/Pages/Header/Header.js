@@ -7,7 +7,10 @@ const Header = () => {
   const menuItems = (
     <>
       <li>
-        
+      <Link
+          to="/"
+          className="mr-4 lg:text-xl font-semibold text-[#CCD6F6] hover:text-white"
+        >Home</Link>
         <a
           href="/#projects"
           className="mr-4 lg:text-xl font-semibold text-[#CCD6F6] hover:text-white"
@@ -29,9 +32,7 @@ const Header = () => {
         <Link
           to="/blogs"
           className="mr-4 lg:text-xl font-semibold text-[#CCD6F6] hover:text-white"
-        >
-                      Blogs
-        </Link>
+        >Blogs</Link>
         
       </li>
     </>

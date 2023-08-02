@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function BlogDOM() {
     return (
-        <div className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
             <h2 className='text-5xl font-bold text-center mb-6'><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>The Document Object Model (DOM) is a hierarchical, tree-like structure</span> <span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-pink-600'>that represents the HTML elements of a web page and their attributes.</span> </h2>
             <p className='text-xl text-justify mb-6'>The Document Object Model (DOM) is a hierarchical, tree-like structure that represents the HTML elements of a web page and their attributes. It provides a programming interface for web developers to access and manipulate the content, structure, and style of a web page in real-time. When a web page is loaded, the browser creates the DOM tree by parsing the HTML code and then uses it to render the web page.</p>
             <p className='text-xl text-justify mb-6'>The DOM is made up of nodes that represent the HTML elements of a web page, such as <code>&lt;html&gt;</code>,  <code>&lt;body&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, and so on. Each node has properties and methods that can be used to interact with it. For example, you can use JavaScript to manipulate the text content of a <code>&lt;p&gt;</code> element, add a new element to the DOM, or change the style of an element.</p>

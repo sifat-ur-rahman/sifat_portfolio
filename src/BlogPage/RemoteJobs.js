@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const RemoteJobs = (props) => {
     return (
-        <div className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
+        <div  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
             <h2 className='text-5xl font-bold text-center mb-6'><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>Working remotely gives you the freedom to </span> <span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-pink-600'>work from anywhere, not just in a regular office. </span> </h2>
             <p className='text-xl text-justify mb-6'>Think of a world where you can work from wherever you like. Working remotely gives you the freedom to work from anywhere, not just in a regular office. Thanks to technology, people who work remotely like us can effectively collaborate with teams located in various regions across the globe. We utilize different instruments and systems to link, converse, and create outstanding website solutions.</p>
             <p className='text-2xl font-bold mb-3 '>How to assign a task in a remote job?</p>

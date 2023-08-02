@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function BlogRedux() {
     return (
-        <div className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
             <h2 className='text-5xl font-bold text-center mb-6'><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>One of the main benefits of using Redux Toolkit is that it makes </span> <span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-pink-600'>it easy to create and manage state in your React applications</span> </h2>
             <p className='text-xl text-justify mb-6'>If you're a developer who is looking for a powerful and easy-to-use toolkit for creating React applications, then you should definitely check out Redux Toolkit. This powerful toolkit is designed to make it easy for developers to build and manage state in their React applications, and it offers a wide range of features that can help you streamline your development process and save you time and effort.</p>
             <p className='text-xl text-justify mb-6'>One of the main benefits of using Redux Toolkit is that it makes it easy to create and manage state in your React applications. This is because the toolkit provides a set of powerful and intuitive tools that allow you to easily create and manage state in your application, including a simple and powerful state management system, a built-in time-travel debugging tool, and a set of powerful middleware and plugins that can help you extend the functionality of your application.</p>

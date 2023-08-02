@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BlogJavaScript = () => {
     return (
-        <div className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  className='lg:w-[1000px] lg:mx-auto mx-6 my-16'>
             <h2 className='text-5xl font-bold text-center mb-6'><span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600'>JavaScript is a high-level, dynamic, and interpreted programming language</span> <span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-pink-600'>used primarily for creating interactive and dynamic websites.</span> </h2>
             <p className='text-xl text-justify mb-9'>JavaScript is a high-level, dynamic, and interpreted programming language used primarily for creating interactive and dynamic websites. It was created by Brendan Eich in just 10 days in 1995 while he was working at Netscape Communications Corporation. </p>
             <p className='text-2xl font-bold text-justify mb-3'>JavaScript can be used in a variety of different contexts, but it is primarily used for web development. Here are some examples of where and how JavaScript can be used:</p>
