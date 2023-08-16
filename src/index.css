@@ -9,3 +9,6 @@ font-family: Arial-black;
 code {
 
 }
+* {
+  cursor: none !important;
+}
