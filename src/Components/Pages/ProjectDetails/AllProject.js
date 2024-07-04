@@ -22,7 +22,7 @@ const AllProjects = () => {
           <hr className="w-3/12 mx-auto mb-4 font-bold " />
         </h2>
 
-        <div className="flex lg:flex-row flex-col lg:gap-10 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 lg:gap-10 gap-4">
           {projectData.length > 0 ? (
             projectData?.map((singleData) => (
               <SingleCard
