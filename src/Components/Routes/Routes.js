@@ -1,19 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
-
 import Blogs from "../Pages/Blogs/Blogs";
-
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
-import Freemium from "../Pages/ProjectDetails/Freemium";
 import Phone from "../Pages/ProjectDetails/Phone";
-import Course from "../Pages/ProjectDetails/Course";
 import RemoteJobs from "../../BlogPage/RemoteJobs";
 import BlogNextJs from "../../BlogPage/BlogNextJs";
 import BlogJavaScript from "../../BlogPage/BlogJavaScript";
 import BlogReactJs from "../../BlogPage/BlogReactJs";
 import BlogDOM from "../../BlogPage/BlogDOM";
 import BlogRedux from "../../BlogPage/BlogRedux";
+import AllProjects from "../Pages/ProjectDetails/AllProject";
 // import NextJs from "../../BlogPage/NextJS";
 
 export const router = createBrowserRouter([
@@ -27,24 +24,22 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
+
       {
-        path: "/project/Freemium_Articles",
-        element: <Freemium />,
-      },
-      {
-        path: "/project/Phone_Reseller",
+        path: "/project/:id",
         element: <Phone />,
       },
       {
-        path: "/project/Crash_Course",
-        element: <Course />,
+        path: "/all-project/",
+        element: <AllProjects />,
       },
+
       {
         path: "/blogs",
         element: <Blogs></Blogs>,
       },
       {
-        path: "/blog/next_js",
+        path: "/blog/:id",
         element: <BlogNextJs></BlogNextJs>,
       },
       {
