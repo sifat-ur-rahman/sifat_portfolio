@@ -3,16 +3,9 @@ import Main from "../Layouts/Main";
 import Blogs from "../Pages/Blogs/Blogs";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
-
-import RemoteJobs from "../../BlogPage/RemoteJobs";
-import BlogNextJs from "../../BlogPage/BlogNextJs";
-import BlogJavaScript from "../../BlogPage/BlogJavaScript";
-import BlogReactJs from "../../BlogPage/BlogReactJs";
-import BlogDOM from "../../BlogPage/BlogDOM";
-import BlogRedux from "../../BlogPage/BlogRedux";
 import AllProjects from "../Pages/ProjectDetails/AllProject";
 import ProjectDetails from "../Pages/ProjectDetails/ProjectDetails";
-// import NextJs from "../../BlogPage/NextJS";
+import BlogDetails from "../Pages/Blogs/BlogDetails/BlogDetails";
 
 export const router = createBrowserRouter([
   {
@@ -45,28 +38,13 @@ export const router = createBrowserRouter([
       },
       {
         path: "/blog/:id",
-        element: <BlogNextJs></BlogNextJs>,
+        element: <BlogDetails />,
+        loader: ({ params }) =>
+          fetch(
+            `https://sifat-portfolio-server.vercel.app/api/blog/${params.id}`
+          ),
       },
-      {
-        path: "/blog/remote_jobs",
-        element: <RemoteJobs></RemoteJobs>,
-      },
-      {
-        path: "/blog/javaScript",
-        element: <BlogJavaScript></BlogJavaScript>,
-      },
-      {
-        path: "/blog/react_js",
-        element: <BlogReactJs></BlogReactJs>,
-      },
-      {
-        path: "/blog/Virtual_DOM",
-        element: <BlogDOM />,
-      },
-      {
-        path: "/blog/react_redux",
-        element: <BlogRedux />,
-      },
+
       {
         path: "*",
         element: <ErrorPage></ErrorPage>,
