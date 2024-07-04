@@ -3,7 +3,7 @@ import Main from "../Layouts/Main";
 import Blogs from "../Pages/Blogs/Blogs";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
-import Phone from "../Pages/ProjectDetails/Phone";
+
 import RemoteJobs from "../../BlogPage/RemoteJobs";
 import BlogNextJs from "../../BlogPage/BlogNextJs";
 import BlogJavaScript from "../../BlogPage/BlogJavaScript";
@@ -11,6 +11,7 @@ import BlogReactJs from "../../BlogPage/BlogReactJs";
 import BlogDOM from "../../BlogPage/BlogDOM";
 import BlogRedux from "../../BlogPage/BlogRedux";
 import AllProjects from "../Pages/ProjectDetails/AllProject";
+import ProjectDetails from "../Pages/ProjectDetails/ProjectDetails";
 // import NextJs from "../../BlogPage/NextJS";
 
 export const router = createBrowserRouter([
@@ -27,10 +28,14 @@ export const router = createBrowserRouter([
 
       {
         path: "/project/:id",
-        element: <Phone />,
+        element: <ProjectDetails />,
+        loader: ({ params }) =>
+          fetch(
+            `https://sifat-portfolio-server.vercel.app/api/project/${params.id}`
+          ),
       },
       {
-        path: "/all-project/",
+        path: "/all-project",
         element: <AllProjects />,
       },
 

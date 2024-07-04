@@ -14,7 +14,7 @@ const Header = () => {
           Home
         </Link>
         <a
-          href="/#projects"
+          href="/all-project"
           className="mr-4 lg:text-xl font-semibold text-[#CCD6F6] hover:text-white"
         >
           Projects
