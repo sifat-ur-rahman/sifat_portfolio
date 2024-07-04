@@ -1,4 +1,4 @@
-import { createBrowserRouter} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
 
 import Blogs from "../Pages/Blogs/Blogs";
@@ -16,13 +16,12 @@ import BlogDOM from "../../BlogPage/BlogDOM";
 import BlogRedux from "../../BlogPage/BlogRedux";
 // import NextJs from "../../BlogPage/NextJS";
 
-
-
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    errorElement: <ErrorPage></ErrorPage>,
+    // errorElement: <ErrorPage></ErrorPage>,
+
     children: [
       {
         path: "/",
@@ -31,17 +30,14 @@ export const router = createBrowserRouter([
       {
         path: "/project/Freemium_Articles",
         element: <Freemium />,
-        
       },
       {
         path: "/project/Phone_Reseller",
         element: <Phone />,
-        
       },
       {
         path: "/project/Crash_Course",
         element: <Course />,
-        
       },
       {
         path: "/blogs",
@@ -49,27 +45,27 @@ export const router = createBrowserRouter([
       },
       {
         path: "/blog/next_js",
-        element: <BlogNextJs></BlogNextJs>
+        element: <BlogNextJs></BlogNextJs>,
       },
       {
         path: "/blog/remote_jobs",
-        element: <RemoteJobs></RemoteJobs>
+        element: <RemoteJobs></RemoteJobs>,
       },
       {
         path: "/blog/javaScript",
-        element: <BlogJavaScript></BlogJavaScript>
+        element: <BlogJavaScript></BlogJavaScript>,
       },
       {
         path: "/blog/react_js",
-        element: <BlogReactJs></BlogReactJs>
+        element: <BlogReactJs></BlogReactJs>,
       },
       {
         path: "/blog/Virtual_DOM",
-        element: <BlogDOM />
+        element: <BlogDOM />,
       },
       {
         path: "/blog/react_redux",
-        element: <BlogRedux />
+        element: <BlogRedux />,
       },
       {
         path: "*",

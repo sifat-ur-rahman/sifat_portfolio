@@ -8,7 +8,7 @@ import phone from "../../../images/phone.png";
 
 const Foonter = () => {
   return (
-    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
       <hr />
       <footer className="footer p-6 lg:grid-cols-3 grid-cols-1 text-white">
         <div>
